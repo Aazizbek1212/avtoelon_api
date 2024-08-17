@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from main.models import Car, CarBrand, CarColor, Image
+
+
+
+admin.site.register(Image)
+admin.site.register(Car)
+admin.site.register(CarColor)
+admin.site.register(CarBrand)
